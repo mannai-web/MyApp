@@ -5,8 +5,9 @@
              steps{
                 script{
                     checkout([$class: 'GitSCM', branches: [[name: '*/master']],
-                        userRemoteConfigs: [[                            credentialsId: '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',
-                            url: 'https://github.com/ahmedissiou/MyApp.git']]])
+                        userRemoteConfigs: [[ 
+                        	credentialsId: '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',
+                            	url: 'https://github.com/mannai-web/MyApp.git']]])
                 }
             }
         }
